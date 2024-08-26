@@ -327,6 +327,23 @@ function Profile() {
                     </div>
                 </div>
             </div>
+            <div className='row gap-2  mt-28 justify-content-start ml-16'>
+                <div className='col-5'>
+                    <h1 className='pop text-xl text-[#000] text-'>My email Address</h1>
+                </div>
+            </div>
+            <div className='flex items-center gap-4 mt-4 ml-16'>
+                <div className='flex-shrink-0'>
+                    <img src='/public/pic.png' alt='Profile Picture' className='rounded-full w-16 h-16' />
+                </div>
+                <div className='flex-grow'>
+                    <h1 className='text-[#000] sans text-xl font-medium'>Alexa Rawles</h1>
+                    <p className='text-[#000] sans text-sm'>1 month ago</p>
+                </div>
+                <div>
+                    <button className='text-[#4182F9] text-lg border border-[#4182F9] rounded-md px-3 py-2 bg-[#F3F4F6] hover:bg-[#E5E7EB]'>Deactivate Employee</button>
+                </div>
+            </div>
         </div>
     </>
   )

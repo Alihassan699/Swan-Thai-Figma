@@ -43,30 +43,27 @@ function Common() {
             </div>
         </div>
         <div className="container mt-4">
-            <div className="row align-items-center justify-content-between p-3 rounded">
-                <div className="col-md-6">
-                    <h5 className="mb-0 inter text-base text-[#0A0A0A]">Good to see you, Kimi! 👋</h5>
-                    <p className="mb-0 inter text-[#616161] text-sm">You came 15 minutes early today.</p>
+            <div className="flex justify-between items-center py-4 px-6 "><div>
+                <h1 className="font-bold text-lg">Good to see you, Kimi! 👋</h1>
+                <p className="text-sm text-gray-600">You came 15 minutes early today.</p>
+            </div>
+            <div className="flex gap-4">
+                <div className="flex items-center gap-2">
+                    <img src="/public/green.png" alt="Punch In Icon" className="w-6 h-6" />
+                        <div>
+                            <p className="text-sm font-medium">7:14 AM</p>
+                            <p className="text-xs text-gray-500">Punch In</p>
+                        </div>
                 </div>
-                <div className="col-md-6 d-flex justify-content-end">
-                    <div className="d-flex align-items-center me-3">
-                        <div className="d-flex flex-column align-items-center text-success me-3">
-                            <div className="d-flex align-items-center">
-                                <img src="/public/green.png" alt="Punch In Time" className="icon" />
-                                <p className="mb-0 me-2">7:14 AM</p>
-                            </div>
-                            <p className="mb-0">Punch In</p>
+                <div className="flex items-center gap-2">
+                    <img src="/public/red.png" alt="Punch Out Icon" className="w-6 h-6" />
+                        <div>
+                            <p className="text-sm font-medium">05:00 PM</p>
+                            <p className="text-xs text-gray-500">Punch Out</p>
                         </div>
-                        <div className="d-flex flex-column align-items-center text-danger">
-                            <div className="d-flex align-items-center">
-                                <img src='/public/red.png' alt="Punch Out Time" className="icon" />
-                                <p className="mb-0 me-2">5:00 PM</p>
-                            </div>
-                            <p className="mb-0">Punch Out</p>
-                        </div>
-                    </div>
                 </div>
             </div>
+            </div>  
         </div>
 
     </>
